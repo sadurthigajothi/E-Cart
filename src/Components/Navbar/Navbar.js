@@ -40,7 +40,7 @@ const Navbar = () => {
         </ul>
 
         <div className="nav-cart">
-          <button className="join-btn">Join</button>
+          <Link to='/join'><button className="join-btn">Join</button></Link>
           <img src={cart} alt="" className="cart-icons" onClick={() => setOpenCart(true)}/>
           <div className="nav-cart-count">{getTotalcartitems()}</div>
         </div>

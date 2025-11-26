@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Shop from './Pages/Shop';
 import ShopCategory from './Pages/ShopCategory';
 import Cart from './Pages/Cart';
+import LoginSignup from './Pages/LoginSignup';
 import Footer from './Components/Footer/Footer';
 
 import mens_banner from './Components/assets/Mens.png';
@@ -26,6 +27,7 @@ function App() {
           <Route path="/kids" element={<ShopCategory banner={kids_banner} category="kid" />} />
 
           <Route path="/cart" element={<Cart />} />
+           <Route path='/join' element={<LoginSignup/>}/>
         </Routes>
 
         <Footer />

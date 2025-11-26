@@ -365,7 +365,11 @@
 }
 
 /* item section  */
-
+.item{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 20px;
+     padding: 10px; 
+}
 .item img {
     width: 200px;
     height: 300px;
@@ -548,6 +552,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 90px;
+    gap:20px;
 }
 
 .shopcategory-loadmore {
@@ -647,4 +652,74 @@
     border-radius: 10px;
     background: #e0e0e0;
     margin-bottom: 5px;
+}
+
+/* login section  */
+
+.loginsignup{
+    width: 100%;
+    height: 110vh;
+    padding-top: 50px;
+    border-bottom: 1px dotted black;
+}
+.loginsignup-container{
+    width: 550px;height:550px;
+    background: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 5px 5px -1px, rgba(0, 0, 0, 0.7) 0px 1px 3px -1px;
+    margin: auto;
+    padding: 40px 60px;
+    border-radius: 5px;
+}
+.loginsignup-container h1{
+    margin: 20px 0px;
+    text-align: center;
+}
+.loginsignup-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    margin-top: 20px;
+}
+.loginsignup-fields input{
+    width: 100%;
+    height: 42px;
+    background: #fbfbfb;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    padding-left: 20px;
+    font-size: 17px;
+    color: #5c5c5c;
+    font-family: "Poppins";
+    border-radius: 8px;
+}
+.loginsignup button{
+    width: 100%;
+    height: 42px;
+    color: white;
+    background: red;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 20px;
+}
+.loginsignup-login{
+    margin-top: 20px;
+    color: #5c5c5c;
+    font-size: 17px;
+    font-weight: 500;
+}
+.loginsignup-login span{
+    color: red;
+    font-weight: 600;
+    cursor: pointer;
+}
+.loginsignup-agree{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 20px;
+    color: #5c5c5c;
+    font-size: 17px;
+    font-weight: 500;
 }
