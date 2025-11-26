@@ -24,69 +24,8 @@ import p23_img from './product_23.jpg'
 import p24_img from './product_24.jpg'
 
 let all_product = [
-    {
+{
      id:1,
-     name:"Symbol Premium Women's Bodycon Dress",
-     category:"women",
-     image:p1_img,
-     new_price: "₹649",
-     old_price:"₹2,599"
-},
-{
-     id:2,
-     name:"Women's Rayon Anarkali Kurta,Pant and Dupatta Set",
-     category:"women",
-     image:p2_img,
-     new_price:"₹949",
-     old_price:"₹3,299"
-},{
-     id:3,
-     name:"Symbol Premium Women's Fitted jacket Dress ",
-     category:"women",
-     image:p3_img,
-     new_price:"₹599",
-     old_price:"₹2,499"
-},{
-     id:4,
-     name:"Miss Chase Women's Brick & Dusty Blue Boat Neck kurta",
-     category:"women",
-     image:p4_img,
-     new_price: "₹1,699",
-     old_price:"₹3,199"
-},{
-     id:5,
-     name:"Symbol Premium Women's A Line Flared Dress",
-     category:"women",
-     image:p5_img,
-     new_price:"₹799",
-     old_price:"₹2,999"
-},
-{
-     id:6,
-     name:"Women Anarkali Kurta and Pant Set with Dupatta",
-     category:"women",
-     image:p6_img,
-     new_price:"₹669",
-     old_price:"₹999"
-},
-{
-     id:7,
-     name:"Symbol Premium Women's Fit & Flare Dress",
-     category:"women",
-     image:p7_img,
-     new_price:"₹949",
-     old_price:"₹2,899"
-},
-{
-     id:8,
-     name:"Women's Cotton Maxi Midi Dress Western Dress for Women",
-     category:"women",
-     image:p8_img,
-     new_price:" ₹799",
-     old_price:"₹2,999"
-},
-{
-     id:9,
      name:"Men's Solid Casual Shirt for Men Full Sleeve",
      category:"men",
      image:p9_img,
@@ -94,7 +33,7 @@ let all_product = [
      old_price:" ₹999"
 },
 {
-     id:10,
+     id:2,
      name:"Allen Solly Men's Cotton Regular Fit Polo T-Shirt",
      category:"men",
      image:p10_img,
@@ -102,7 +41,7 @@ let all_product = [
      old_price:"₹1,099"
 },
 {
-     id:11,
+     id:3,
      name:"Men's Regular Fit Solid Soft Touch Cotton Casual Shirt",
      category:"men",
      image:p11_img,
@@ -110,7 +49,7 @@ let all_product = [
      old_price:"₹1,849"
 },
 {
-     id:12,
+     id:4,
      name:"Men's Casual Cotton Plain Button Down Shirt Long Sleeve",
      category:"men",
      image:p12_img,
@@ -118,7 +57,7 @@ let all_product = [
      old_price:"₹1,499"
 },
 {
-     id:13,
+     id:5,
      name:"Bellstone Men's Cotton Blend Solid Regular Kurta",
      category:"men",
      image:p13_img,
@@ -126,7 +65,7 @@ let all_product = [
      old_price:"₹1,499"
 },
 {
-     id:14,
+     id:6,
      name:"Men's T-Shirt and Shorts Set | Top & Shorts Night Suits Set",
      category:"men",
      image:p14_img,
@@ -134,7 +73,7 @@ let all_product = [
      old_price:"₹1,999"
 },
 {
-     id:15,
+     id:7,
      name:"Vogaan Men's Solid Regular Fit Dress Shirt ",
      category:"men",
      image:p15_img,
@@ -142,12 +81,73 @@ let all_product = [
      old_price:"₹2,699"
 },
 {
-     id:16,
+     id:8,
      name:"Leriya Fashion Men's Formal Button Down Shirt",
      category:"men",
      image:p16_img,
      new_price:"₹405",
      old_price:" ₹1,999"
+},
+{
+     id:9,
+     name:"Symbol Premium Women's Bodycon Dress",
+     category:"women",
+     image:p1_img,
+     new_price: "₹649",
+     old_price:"₹2,599"
+},
+{
+     id:10,
+     name:"Women's Rayon Anarkali Kurta,Pant and Dupatta Set",
+     category:"women",
+     image:p2_img,
+     new_price:"₹949",
+     old_price:"₹3,299"
+},{
+     id:11,
+     name:"Symbol Premium Women's Fitted jacket Dress ",
+     category:"women",
+     image:p3_img,
+     new_price:"₹599",
+     old_price:"₹2,499"
+},{
+     id:12,
+     name:"Miss Chase Women's Brick & Dusty Blue Boat Neck kurta",
+     category:"women",
+     image:p4_img,
+     new_price: "₹1,699",
+     old_price:"₹3,199"
+},{
+     id:13,
+     name:"Symbol Premium Women's A Line Flared Dress",
+     category:"women",
+     image:p5_img,
+     new_price:"₹799",
+     old_price:"₹2,999"
+},
+{
+     id:14,
+     name:"Women Anarkali Kurta and Pant Set with Dupatta",
+     category:"women",
+     image:p6_img,
+     new_price:"₹669",
+     old_price:"₹999"
+},
+{
+     id:15,
+     name:"Symbol Premium Women's Fit & Flare Dress",
+     category:"women",
+     image:p7_img,
+     new_price:"₹949",
+     old_price:"₹2,899"
+},
+{
+     id:16,
+     name:"Women's Cotton Maxi Midi Dress Western Dress for Women",
+     category:"women",
+     image:p8_img,
+     new_price:" ₹799",
+     old_price:"₹2,999"
 },
 {
      id:17,

@@ -22,19 +22,19 @@ const Navbar = () => {
 
         <ul className="nav-menu">
           <li onClick={() => setmenu("shop")}>
-            <Link to="/">Shop</Link>
+            <Link to="/" onClick={()=>window.scrollTo(0,0)}>Shop</Link>
             {menu === "shop" && <hr />}
           </li>
           <li onClick={() => setmenu("mens")}>
-            <Link to="/mens">Men</Link>
+            <Link to="/mens" onClick={()=>window.scrollTo(0,0)}>Men</Link>
             {menu === "mens" && <hr />}
           </li>
           <li onClick={() => setmenu("womens")}>
-            <Link to="/womens">Women</Link>
+            <Link to="/womens"  onClick={()=>window.scrollTo(0,0)}>Women</Link>
             {menu === "womens" && <hr />}
           </li>
           <li onClick={() => setmenu("kids")}>
-            <Link to="/kids">Kids</Link>
+            <Link to="/kids"  onClick={()=>window.scrollTo(0,0)}>Kids</Link>
             {menu === "kids" && <hr />}
           </li>
         </ul>
@@ -65,7 +65,7 @@ const Navbar = () => {
                   <img src={item.image} alt={item.name} />
                   <div>
                     <p>{item.name}</p>
-                    <p>{item.new_price} × {qty}</p>
+                    <p>{item.new_price} * {qty}</p>
 
                     <div className="side-qty">
                       <button onClick={() => removeFromCart(id)}>−</button>
@@ -79,7 +79,7 @@ const Navbar = () => {
           )}
         </div>
 
-        <button className="checkout" onClick={() => {setOpenCart(false); navigate("/cart");}}>
+        <button className="checkout" onClick={() => {setOpenCart(false); navigate("/cart");window.scrollTo(0, 0);}}>
           CHECKOUT
         </button>
       </div>
