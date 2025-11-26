@@ -15,7 +15,7 @@ const CartItems = () => {
         <h3>No items in cart</h3>
       ) : (
         itemsInCart.map(([id, qty]) => {
-          const product = all_product.find((p) => p.id == id);
+          const product = all_product.find((p) => p.id === Number(id));
           if (!product) return null;
 
           return (

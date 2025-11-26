@@ -1,5 +1,4 @@
 import React, { useContext, useState } from 'react';
-import { Link } from 'react-router-dom';
 import { ShopContext } from '../Context/ShopContext';
 
 const Item = (props) => {

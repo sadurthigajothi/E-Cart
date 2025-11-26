@@ -1,6 +1,5 @@
 import React from 'react'
 import '../Navbar/Navbar.css';
-import productlist from '../assets/productlist'
 
 const Sidebar = ({ setCategory }) => {  
   return (

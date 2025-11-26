@@ -57,7 +57,7 @@ const Navbar = () => {
             <p>Your cart is empty</p>
           ) : (
             Object.entries(cartItems).map(([id, qty]) => {
-              const item = all_products.find((p) => p.id == id);
+              const item = all_products.find((p) => p.id === Number(id));
               if (!item) return null;
 
               return (

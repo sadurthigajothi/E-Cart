@@ -1,5 +1,5 @@
 {
-  "homepage":"http://sadurthigajothi.github.io/E-Cart",
+  "homepage": "http://sadurthigajothi.github.io/E-Cart",
   "name": "product",
   "version": "0.1.0",
   "private": true,
@@ -19,8 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm start",
-    "deploy":"gh-pages -d bulid"
+    "predeploy": "npm start",
+    "deploy": "gh-pages -d bulid"
   },
   "eslintConfig": {
     "extends": [
