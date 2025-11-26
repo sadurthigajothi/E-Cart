@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/E-Cart/static/css/main.b61071d0.css",
+    "main.js": "/E-Cart/static/js/main.86ef01f0.js",
+    "static/js/453.dfe28d6a.chunk.js": "/E-Cart/static/js/453.dfe28d6a.chunk.js",
+    "static/media/Womens.png": "/E-Cart/static/media/Womens.4e3a797ffaf11919573f.png",
+    "static/media/Mens.png": "/E-Cart/static/media/Mens.fdd9aaaa5f91d6490d66.png",
+    "static/media/Kids.png": "/E-Cart/static/media/Kids.1d4d70fe29e07add3850.png",
+    "static/media/product_2.png": "/E-Cart/static/media/product_2.3ec1f20827fb474eefe6.png",
+    "static/media/product_3.png": "/E-Cart/static/media/product_3.a222192e5be975eec8cc.png",
+    "static/media/product_4.png": "/E-Cart/static/media/product_4.92819ad0406944c57c6e.png",
+    "static/media/shopping-girl.png": "/E-Cart/static/media/shopping-girl.9fd47d20ec2ac46c48d3.png",
+    "static/media/product_1.png": "/E-Cart/static/media/product_1.26fcb39bb8c53a4725a2.png",
+    "static/media/product_22.jpg": "/E-Cart/static/media/product_22.803c9ede1677d82501ea.jpg",
+    "static/media/product_20.jpg": "/E-Cart/static/media/product_20.affd55efbb6105a81460.jpg",
+    "static/media/cart-nav.jpg": "/E-Cart/static/media/cart-nav.fa5f6ad6a2032643a099.jpg",
+    "static/media/product_18.jpg": "/E-Cart/static/media/product_18.ffee692a53fb1aecebfd.jpg",
+    "static/media/product_15.jpg": "/E-Cart/static/media/product_15.2348c4abf912e74f518e.jpg",
+    "static/media/product_21.jpg": "/E-Cart/static/media/product_21.1cd630304476ac7b6ff4.jpg",
+    "static/media/product_13.jpg": "/E-Cart/static/media/product_13.1c1baa8b8149494646f9.jpg",
+    "static/media/product_12.jpg": "/E-Cart/static/media/product_12.632cf9120d2250230432.jpg",
+    "static/media/product_11.jpg": "/E-Cart/static/media/product_11.939bb847a4d386fe5080.jpg",
+    "static/media/product_7.jpg": "/E-Cart/static/media/product_7.c9eaae31481519a7c2c4.jpg",
+    "static/media/logo-nav.jpg": "/E-Cart/static/media/logo-nav.4557f086a4c292d650e1.jpg",
+    "static/media/product_10.jpg": "/E-Cart/static/media/product_10.0f9831031cf7e47ff7e2.jpg",
+    "static/media/product_14.jpg": "/E-Cart/static/media/product_14.ad4f54357293d30c5d40.jpg",
+    "static/media/product_17.jpg": "/E-Cart/static/media/product_17.f8b3ca7df025414c7c06.jpg",
+    "index.html": "/E-Cart/index.html",
+    "main.b61071d0.css.map": "/E-Cart/static/css/main.b61071d0.css.map",
+    "main.86ef01f0.js.map": "/E-Cart/static/js/main.86ef01f0.js.map",
+    "453.dfe28d6a.chunk.js.map": "/E-Cart/static/js/453.dfe28d6a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b61071d0.css",
+    "static/js/main.86ef01f0.js"
+  ]
+}
